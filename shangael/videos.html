@@ -1,10 +1,31 @@
 <html>
 	<head>
 		<title>Shangael's Compendium - Videos</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="../style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
-		 <iframe width="640" height="360" src="https://www.youtube.com/embed/lc5H0gtl0h4" allowfullscreen="true"></iframe> 
+	<body id="videos">
+		<script>
+			const videoIds = [
+				"lc5H0gtl0h4",
+				"K-Ud2BWL2Wc",
+				"EmJkI1tUmBQ",
+				"Eq_YmlK8QCU",
+				"6pbuW4GEnTA",
+				"k7iPPv35xUM"
+			];
+			const container = document.getElementById("videos");
+
+			for (const id of videoIds){
+				const iframe = document.createElement("iframe");
+
+				iframe.width = 640;
+				iframe.height = 360;
+				iframe.src = `https://www.youtube.com/embed/${id}`;
+				iframe.allowFullscreen = true;
+
+				container.appendChild(iframe);
+			}
+		</script>
 	</body>
 </html>
