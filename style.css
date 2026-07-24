@@ -1,0 +1,27 @@
+:root{
+	font-family: Segoe UI, sans-serif;
+}
+body{
+	background: #111;
+	margin: 0;
+}
+.sidebar{
+	background: #222;
+	width: 300px;
+	color: #ddd;
+	font-size: 40px;
+	padding: 10px;
+	height: 100%;
+}
+.separator{
+	border-top: 1px solid #888;
+	margin: 20px 0;
+}
+.sidebarItem{
+	color: #ddd;
+	display: block;
+	font-size: 20px;
+	margin: 5px;
+	text-decoration: none;
+	width: 100%;
+}
