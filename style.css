@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 :root{
-	font-family: Segoe UI, sans-serif;
+	font-family: Rajdhani, Segoe UI, sans-serif;
+	font-weight: 400;
 }
 body{
 	background: #111;
@@ -9,7 +12,6 @@ body{
 	background: #222;
 	width: 300px;
 	color: #ddd;
-	font-size: 40px;
 	padding: 10px;
 	height: 100%;
 }
@@ -24,4 +26,11 @@ body{
 	margin: 5px;
 	text-decoration: none;
 	width: 100%;
+}
+.sidebarItem:hover{
+	color: #d7191b;
+	text-shadow: 1px 1px 5px;
+}
+.homeButton{
+	font-size: 40px;
 }
